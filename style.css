@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+
+.mockupContainer {
+  background-color: aquamarine;
+  height: 768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneContainer {
+  transform: rotate(12deg);
+  width: 300px;
+  height: 600px;
+}
+
+.frame {
+  width: 300px;
+  height: auto;
+  position: absolute;
+}
+
+.screenshotContainer {
+  position: absolute;
+  width: 240px;
+  height: 521px;
+  background: #fff;
+  margin-left: 30px;
+  margin-top: 38px;
+}
+
+.screenshot {
+  object-fit: cover;
+  height: inherit;
+  width: inherit;
+}
